@@ -11,7 +11,7 @@ class SpeegetPositioned extends StatelessWidget {
   /// Specifies icon position according to [child]
   final SpeegetPosition? position;
 
-  /// it is a child that will be displayed according to [positioned]
+  /// it is a [child] that will be displayed according to [positioned]
   final Widget child;
 
   const SpeegetPositioned({super.key, required this.child, this.position});
